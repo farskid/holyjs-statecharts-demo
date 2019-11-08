@@ -45,6 +45,12 @@ pre {
   word-break: break-word;
 }
 
-.error {
+.warning {
   color: orange;
+}
+.error {
+  color: red;
+}
+.success {
+  color: green;
 }
