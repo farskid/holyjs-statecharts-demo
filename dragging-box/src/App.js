@@ -130,7 +130,7 @@ function App() {
           <div
             ref={boxRef}
             className={`box ${state.value}`}
-            onMouseOver={e => {
+            onMouseMove={e => {
               sendEvent({
                 type: "MOVE",
                 data: {
